@@ -1,0 +1,51 @@
+.header {
+  background: aqua;
+  height: 72px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transition: all 1.5s;
+}
+
+.user-image, .user-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.search-bar form {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.search-bar form button {
+  padding: 0px 8px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 35px;
+  margin: 1px;
+  border-radius: 15px;
+}
+.search-bar input {
+  font-size: 18px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 15px;
+}/*# sourceMappingURL=Header.css.map */

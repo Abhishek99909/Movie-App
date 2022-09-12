@@ -1,0 +1,53 @@
+@import "../../common/colors.scss";
+
+.card-item{
+
+    background: aqua;
+    cursor: pointer;
+    border-radius: 10px;
+    // transition: all 2s;
+
+}
+.card-item :hover{
+
+    transform: scale(1.1);
+    transition: all 2s;
+
+}
+.card-top{
+
+    height: 300px;
+
+    img{
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+.card-bottom{
+
+  padding: 20px;
+
+}
+
+.card-info{
+
+  color: $font-praimary;
+   
+  h4{
+
+    font-size: 22px;
+    font-weight: bold;
+    color: orangered;
+     
+
+  }
+  p{
+    color: black;
+    font-weight: bold;
+  }
+
+}
+

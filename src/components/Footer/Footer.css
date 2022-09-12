@@ -1,0 +1,13 @@
+.footer {
+  background: #1a242f;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.footer h1 {
+  padding-bottom: 4px;
+}/*# sourceMappingURL=Footer.css.map */

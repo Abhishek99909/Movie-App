@@ -1,0 +1,26 @@
+@import "../../common/colors.scss";
+
+.movie-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px ;
+    color: green;
+    // font-weight: 400;
+}
+
+.movie-rating{
+
+    padding-left: 3px;
+    margin-top: 20px;
+    color: red;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.movie-info{
+
+    color: gold;
+    font-weight: bold;
+
+}
